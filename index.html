@@ -12,6 +12,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>OnTheGo Coffee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -20,26 +25,38 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Gallrey</a></li>
-                    <li><img src="images/logo.png" alt="logo" height="70px" width="80px"></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Order</a></li>
+                    <li class="home"><a href="#">Home</a></li>
+                    <li class="gallrey"><a href="#">Gallrey</a></li>
+                    <li class="menu"><a href="#">Menu</a></li>
+                    <li class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt="logo" height="70px" width="80px"></a>
+                    </li>
+                    <li class="order"><a href="order.html">Order</a></li>
+                    <form>
+                        <input type="search" name="query" placeholder="Seearch Site">
+                        <input type="submit" name="submit" id="submit" value="Search">
+                    </form>
                 </ul>
             </nav>
         </header>
     </div>
 
-    <nav>
-        
-    </nav>
+    <img src="images/pexels-content-pixie-2836945 (1).jpg" alt="Coffee">
 
-    <form>
-        <input type="search" name="query" placeholder="Seearch Site">
-        <input type="submit" name="submit" id="submit" value="Search">
-    </form>
+    <footer>
 
+        <div class="social_media">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <p class="follow_us">@OnTheGo_Coffee</p>
+            <a href="#" class="fa fa-instagram"></a>
 
-    <!-- https://prod.liveshare.vsengsaas.visualstudio.com/join?AE81D10311FA67C8BD7C603F875E13A111F9-->
+        </div>
+
+        <p class="copy_right"> &copy;OnTheGo Coffee 2020</p>
+
+    </footer>
 
 </body>
+
+</html>
