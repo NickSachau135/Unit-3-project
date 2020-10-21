@@ -1,3 +1,8 @@
+::root {
+    --color-text: #1c1707;
+    --color-base: hsl(49, 66%, 83%);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +17,7 @@ body {
 .wrapper {
     background-color: burlywood;
     display: flex;
+    padding-top: 50px;
 }
 
 nav ul {
@@ -22,6 +28,13 @@ nav ul {
     list-style-type: none;
     font-family: 'Fredericka the Great', cursive;
     font-size: 30px;
+}
+
+nav p {
+    position: absolute;
+    right: 550px;
+    top: 0;
+    font-size: 45px;
 }
 
 nav a {
@@ -50,10 +63,50 @@ a {
     color: white;
 }
 
+.cappuccino_box {
+    text-align: center;
+    width: auto;
+    height: 533px;
+}
+
+.cappuccino_box img {
+    width: 1000px;
+    border-radius: 25px;
+}
+
+.cappuccino_box h2{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    font-size: 90px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(201, 148, 79);
+}
+
+.cappuccino_box p {
+    text-transform: capitalize;
+    position: absolute;
+    top: 340px;
+    left: 400px;
+    font-size: 22px;
+    color: ;
+}
+
+.cappuccino_box button {
+    border-radius: 10px;
+    height: 80px;
+    /* background: none; */
+    border: none;
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+
 footer {
     background-color: burlywood;
     position: absolute;
-    bottom: 0;
+    bottom: -200%;
     width: 100%;
 }
 
