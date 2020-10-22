@@ -21,6 +21,10 @@
         background-color: burlywood;
     }
 
+    nav input {
+        width: 100%;
+    }
+
     nav ul {
         display: flex;
         width: 100%;
@@ -300,7 +304,6 @@
         width: auto;
         margin-top: 15px;
         margin-bottom: 15px;
-        height: 600px;
         background-position: center;
         background-image: url("images/pexels-content-pixie-2836945 (1).jpg");
         background-size: contain;
@@ -454,4 +457,10 @@
         justify-content: space-evenly;
         align-items: center;
     }
+}
+
+@media (max-width: 680px) {
+    nav form {
+        display: none;
+    }    
 }
