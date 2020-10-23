@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+@media (min-width: 500px) {  /* Main style for pc*/
     * {
         margin: 0;
         padding: 0;
@@ -271,6 +271,10 @@
         width: auto;
     }
 
+    .food_nav a:hover {
+        border-bottom: 1px dotted black;
+    }
+
     .food_nav li {
         display: inline;
         margin-right: 20px;
@@ -301,6 +305,10 @@
 
     .main_menu ul {
         display: flexbox;
+    }
+
+    .items_container {
+        overflow: auto;
     }
 
     .items_container ul {
@@ -349,11 +357,11 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) { /* For mobile*/
     
 }
 
-@media (max-width: 680px) {
+@media (max-width: 680px) { /* get rid of search bar*/
     nav form {
         display: none;
     }    
