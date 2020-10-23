@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,11 +29,11 @@
             <ul>
                 <li class="home nonactive"><a href="index.html">Home</a></li>
                 <li class="gallrey nonactive"><a href="gallery.html">Gallrey</a></li>
-                <li class="menu nonactive"><a href="menu.html">Menu</a></li>
+                <li class="menu active"><a href="menu.html">Menu</a></li>
                 <li class="logo">
                     <a href="index.html"><img src="images/logo.png" alt="logo" height="70px" width="80px"></a>
                 </li>
-                <li class="order active"><a href="order.html">Order</a></li>
+                <li class="order nonactive"><a href="order.html">Order</a></li>
                 <form>
                     <input type="search" name="query" placeholder="Seearch Site">
                     <input type="submit" name="submit" id="submit" value="Search">
@@ -41,15 +42,21 @@
         </nav>
     </div>
 
-    
+    <div class="food_nav">
+        <ul>
+            <li><a class="nonactive" href="menu.html">All Products</a></li>
+            <li><a class="nonactive" href="favorite.html">Featured Products</a></li>
+            <li><a class="active" href="feature.html">Favorite Products</a></li>
+            <li><a class="nonactive" href="previous.html">Previous Orders</a></li>
+        </ul>
+    </div>
 
     <div class="footer">
         <div class="footer-content">
-            <div class="footer-about">
+            <div class="footer-about footer-section">
                 <h1 class="Title">OnTheGo <span>Coffee</span></h1>
-                <p class="description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptas, dolores ipsa nostrum placeat sunt perspiciatis deleniti suscipit, distinctio numquam adipisci aliquam hic, quibusdam eius! Nulla ex laboriosam mollitia placeat ad odit rerum
-                    aliquam ratione nisi! Eius libero, pariatur necessitatibus iste quaerat dolore sed placeat asperiores voluptatum facere quasi quod?
+                <p  class="description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptas, dolores ipsa nostrum placeat sunt perspiciatis deleniti suscipit, distinctio numquam adipisci aliquam hic, quibusdam eius! Nulla ex laboriosam mollitia placeat ad odit rerum aliquam ratione nisi! Eius libero, pariatur necessitatibus iste quaerat dolore sed placeat asperiores voluptatum facere quasi quod?
                 </p>
                 <br>
                 <div class="social">
@@ -57,20 +64,8 @@
                     <a href="#" target="blank"><i class="fa fa-twitter"></i></a>
                     <a href="#" target="blank"><i class="fa fa-instagram"></i></a>
                 </div>
-                
-                <h1 class=title>Payment Methods</h1>
-                <br>
-
-                <div class="payments">
-
-                    <i class="fa fa-cc-amex" style="font-size:48px;color:red"></i>
-                    <i class="fa fa-cc-paypal" style="font-size:48px;color:red"></i>
-                    <i class="fa fa-cc-mastercard" style="font-size:48px;color:red"></i>
-                    <i class="fa fa-cc-visa" style="font-size:48px;color:red"></i>
-                    <i class="fa fa-cc-discover" style="font-size:48px;color:red"></i>
-                </div>
-            </div>
         </div>
+    </div>
 </body>
 
 </html>

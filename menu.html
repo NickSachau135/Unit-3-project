@@ -16,46 +16,81 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <div class="wrapper">
         <header>
-            <p>OnTheGo Coffee</p>
+            <a href="index.html">OnTheGo Coffee</a>
         </header>
         <nav>
-                <ul>
-                    <li class="home"><a href="index.html">Home</a></li>
-                    <li class="gallrey"><a href="gallery.html">Gallrey</a></li>
-                    <li class="menu"><a href="menu.html">Menu</a></li>
-                    <li class="logo">
-                        
-                        <a href="index.html"><img src="images/logo.png" alt="logo" height="70px" width="80px"></a>
-                    </li>
-                    <li class="order"><a href="order.html">Order</a></li>
-                    <form>
-                        <input type="search" name="query" placeholder="Seearch Site">
-                        <input type="submit" name="submit" id="submit" value="Search">
-                    </form>
-                </ul>
-            </nav>
-
-            <div class="footer">
-                <div class="footer-content">
-                    <div class="footer-about footer-section">
-                        <h1 class="Title">OnTheGo <span>Cofee</span></h1>
-                        <p  class="description">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptas, dolores ipsa nostrum placeat sunt perspiciatis deleniti suscipit, distinctio numquam adipisci aliquam hic, quibusdam eius! Nulla ex laboriosam mollitia placeat ad odit rerum aliquam ratione nisi! Eius libero, pariatur necessitatibus iste quaerat dolore sed placeat asperiores voluptatum facere quasi quod?
-                        </p>
-                        <br>
-                        <div class="social">
-                            <a href="#" target="blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#" target="blank"><i class="fa fa-twitter"></i></a>
-                            <a href="#" target="blank"><i class="fa fa-instagram"></i></a>
-                        </div>
-                </div>
-            </div>
+            <ul>
+                <li class="home nonactive"><a href="index.html">Home</a></li>
+                <li class="gallrey nonactive"><a href="gallery.html">Gallrey</a></li>
+                <li class="menu active"><a href="menu.html">Menu</a></li>
+                <li class="logo nonactive">
+                    <a href="index.html"><img src="images/logo.png" alt="logo" height="70px" width="80px"></a>
+                </li>
+                <li class="order nonactive"><a href="order.html">Order</a></li>
+                <form>
+                    <input type="search" name="query" placeholder="Seearch Site">
+                    <input type="submit" name="submit" id="submit" value="Search">
+                </form>
+            </ul>
+        </nav>
     </div>
+
+        <div class="food_nav">
+            <ul>
+                <li><a class="active" href="menu.html">All Products</a></li>
+                <li><a class="nonactive" href="favorite.html">Featured Products</a></li>
+                <li><a class="nonactive" href="feature.html">Favorite Products</a></li>
+                <li><a class="nonactive" href="previous.html">Previous Orders</a></li>
+            </ul>
+        </div>
+
+        <div class="items_container">
+            <nav class="sidenav_menu">
+                <section>
+                    <h4>Drinks</h4>
+                    <ul>
+                        <li class="drink_item"><a>Hot Coffees</a></li>
+                        <li class="drink_item"><a>Hot Teas</a></li>
+                        <li class="drink_item"><a>Hot Drinks</a></li>
+                        <li class="drink_item"><a>Frappuccino Blended Beverages</a></li> <!-- Ask Mr.Peck with wrap help -->
+                        <li class="drink_item"><a>Cold Coffees</a></li>
+                        <li class="drink_item"><a>Iced Teas</a></li>
+                        <li class="drink_item"><a>Cold Drinks</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>At Home Coffee</h4>
+                    <ul>
+                        <li class="HC_item"><a>Whole Bean</a></li>
+                        <li class="HC_item"><a>Verismo Pods</a></li>
+                        <li class="HC_item"><a>VIA Instant</a></li>
+                    </ul>
+                </section>
+            </nav>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-about footer-section">
+                    <h1 class="Title">OnTheGo <span>Coffee</span></h1>
+                    <p  class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptas, dolores ipsa nostrum placeat sunt perspiciatis deleniti suscipit, distinctio numquam adipisci aliquam hic, quibusdam eius! Nulla ex laboriosam mollitia placeat ad odit rerum aliquam ratione nisi! Eius libero, pariatur necessitatibus iste quaerat dolore sed placeat asperiores voluptatum facere quasi quod?
+                    </p>
+                    <br>
+                    <div class="social">
+                        <a href="#" target="blank"><i class="fa fa-facebook"></i></a>
+                        <a href="#" target="blank"><i class="fa fa-twitter"></i></a>
+                        <a href="#" target="blank"><i class="fa fa-instagram"></i></a>
+                    </div>
+            </div>
+        </div>
 </body>
 </html>
