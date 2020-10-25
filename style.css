@@ -255,8 +255,8 @@
         background-color: rgb(255, 214, 167);
     }
     .main_menu img {
-        width: 200px;
-        clip-path: circle(65px at center);
+        width: 100px;
+        border-radius: 50%;
     }
     .main_menu ul {
         display: flexbox;
@@ -320,7 +320,7 @@
         font-size: 40px;
         color: black;
     }
-    .`p {
+    .p {
         display: none;
     }
     header a:hover {
