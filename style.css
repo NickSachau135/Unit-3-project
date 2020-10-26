@@ -261,8 +261,7 @@
     .main_menu ul {
         display: flexbox;
     }
-
-    .main_menu section{
+    .main_menu section {
         margin: 50px 0 0 150px;
         margin-left: 150px;
         position: absolute;
@@ -270,25 +269,27 @@
         height: 550px;
         display: grid;
         grid-template-columns: repeat(2, 400px);
-        grid-template-rows: repeat(4,100px);
+        grid-template-rows: repeat(4, 100px);
     }
-
-    .hot_coffee_holder,.hot_tea_holder,.hot_drinks_holder,.frappuccino_blended_beverages_holder,.cold_coffees_holder,.iced_tea_holder,.cold_drinks_holder {
+    .hot_coffee_holder,
+    .hot_tea_holder,
+    .hot_drinks_holder,
+    .frappuccino_blended_beverages_holder,
+    .cold_coffees_holder,
+    .iced_tea_holder,
+    .cold_drinks_holder {
         width: 250px;
     }
-
     .main_menu .title_drinks {
         position: absolute;
         top: 200px;
         left: 150px;
     }
-
     .main_menu .title_coffee_home {
         position: absolute;
         top: 650px;
         left: 150px;
     }
-
     .hot_coffee_holder {
         grid-column: 1/2;
         grid-row: 1/2;
@@ -296,14 +297,12 @@
         align-items: center;
         justify-content: space-between;
     }
-
     .hot_coffee_holder a {
         font-size: 1.2rem;
         font-weight: bold;
         color: black;
         z-index: 98;
     }
-
     .hot_drinks_holder {
         grid-column: 1/2;
         grid-row: 2/3;
@@ -311,14 +310,12 @@
         align-items: center;
         justify-content: space-between;
     }
-
     .hot_drinks_holder a {
         font-size: 1.2rem;
         font-weight: bold;
         color: black;
         z-index: 98;
     }
-
     .cold_coffees_holder {
         grid-column: 1/2;
         grid-row: 3/4;
@@ -326,14 +323,12 @@
         align-items: center;
         justify-content: space-between;
     }
-
     .cold_coffees_holder a {
         font-size: 1.2rem;
         font-weight: bold;
         color: black;
         z-index: 97;
     }
-
     .cold_drinks_holder {
         grid-column: 1/2;
         grid-row: 4/5;
@@ -341,14 +336,12 @@
         align-items: center;
         justify-content: space-between;
     }
-    
     .cold_drinks_holder a {
         font-size: 1.2rem;
         font-weight: bold;
         color: black;
         z-index: 96;
     }
-
     .hot_tea_holder {
         grid-column: 2/3;
         grid-row: 1/2;
@@ -356,14 +349,12 @@
         align-items: center;
         justify-content: space-between;
     }
-
     .hot_tea_holder a {
         font-size: 1.2rem;
         font-weight: bold;
         color: black;
         z-index: 95;
     }
-
     .frappuccino_blended_beverages_holder {
         grid-column: 2/3;
         grid-row: 2/3;
@@ -371,14 +362,12 @@
         align-items: center;
         justify-content: space-between;
     }
-
     .frappuccino_blended_beverages_holder a {
         font-size: 1.2rem;
         font-weight: bold;
         color: black;
         z-index: 94;
     }
-
     .iced_tea_holder {
         grid-row: 3/4;
         grid-column: 2/3;
@@ -386,14 +375,12 @@
         align-items: center;
         justify-content: space-between;
     }
-
     .iced_tea_holder a {
         font-size: 1.2rem;
         font-weight: bold;
         color: black;
         z-index: 99;
     }
-
     .items_container {
         overflow: auto;
     }
@@ -419,7 +406,6 @@
     .sidenav_menu h4 {
         font-size: 1.1rem;
     }
-
     .HC_item {
         font-size: 1.1rem;
         margin-top: 1rem;
@@ -744,5 +730,24 @@
     /* get rid of search bar*/
     nav form {
         display: none;
+    }
+    .container_gallery img {
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+        transition: all .5s ease-in-out;
+    }
+    .container_gallery img:hover {
+        position: relative;
+        width: 350px;
+    }
+    .container_gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        grid-gap: 15px;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 40px;
+        justify-content: center;
     }
 }
